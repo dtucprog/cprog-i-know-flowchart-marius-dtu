@@ -1,0 +1,7 @@
+i want to figure out if public transport or car is the fastest. 
+
+therefore I put in the time it takes to go by public transport, and then by car.
+
+if by car takes the least amount of time, then it says "Car!"
+
+if by public transport takes the least amount of time, then it says "Public!"

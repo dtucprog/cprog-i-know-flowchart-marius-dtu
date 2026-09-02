@@ -1,0 +1,60 @@
+<mxfile host="Electron">
+  <diagram name="Side-1" id="6IAVK2BIczZiCoV12BZv">
+    <mxGraphModel dx="1285" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-37" edge="1" parent="1" source="dSWr4ZICY0X31Jbnm4_W-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dSWr4ZICY0X31Jbnm4_W-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="start" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-28" edge="1" parent="1" source="dSWr4ZICY0X31Jbnm4_W-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="dSWr4ZICY0X31Jbnm4_W-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-25" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Input: how many &quot;n&quot; days do you want your trip to take?" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-33" edge="1" parent="1" source="dSWr4ZICY0X31Jbnm4_W-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dSWr4ZICY0X31Jbnm4_W-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="distance=(3h*20km/h+(n-1)*6h*20km/h)" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-29" edge="1" parent="1" source="dSWr4ZICY0X31Jbnm4_W-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dSWr4ZICY0X31Jbnm4_W-26" value="No">
+          <mxGeometry relative="1" x="-0.3333" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-31" edge="1" parent="1" source="dSWr4ZICY0X31Jbnm4_W-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dSWr4ZICY0X31Jbnm4_W-30" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="is n=0" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-36" edge="1" parent="1" source="dSWr4ZICY0X31Jbnm4_W-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dSWr4ZICY0X31Jbnm4_W-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-30" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Output: Total distance - 0 km" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-35" edge="1" parent="1" source="dSWr4ZICY0X31Jbnm4_W-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="dSWr4ZICY0X31Jbnm4_W-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="149.99" />
+              <mxPoint x="670" y="149.99" />
+              <mxPoint x="670" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-32" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Output: Total distance - &quot;distance&quot;" vertex="1">
+          <mxGeometry height="60" width="140" x="640" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dSWr4ZICY0X31Jbnm4_W-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
